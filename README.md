@@ -37,7 +37,7 @@ For example, to run the software with 8 threads, type:
     OMP_NUM_THREADS=8 ./build/quasi -rest <rest_mesh> -init <init_mesh> -handles <handles_file>
 
 The meshes should be .node files. An accompanying .ele file must share the same name and be in the same directory.
-The list of handles should be a .txt file containing a list vertex indices (one per row) for pinning in place.
+The list of handles should be a .txt file containing a list of vertex indices for pinning in place.
 
 Example input meshes from the paper are located in: `wrapd/samples/data/`
 
