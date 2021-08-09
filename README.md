@@ -47,7 +47,7 @@ The output mesh and data will be saved into a directory in `wrapd/output/`.
 
 There are many optional arguments that can be provided to tune the algorithm and enable/disable particular features. For a complete list of options type:
 
-    ./build/param --help
+    ./build/quasi --help
 
 ## Paper abstract
 
